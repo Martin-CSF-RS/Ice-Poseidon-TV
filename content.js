@@ -265,7 +265,7 @@ var checkIfOnStreamPage = function() {
 
 var chatInputCleanUp = function () {
     
-    $('<style type="text/css">.yt-live-chat-message-input-renderer-0 {padding: 10px;}; '.yt-live-chat-message-input-renderer-0 #author.yt-live-chat-message-input-renderer' {display: none;}; </style>').appendTo('head');
+    $('<style type="text/css">.yt-live-chat-message-input-renderer-0 {padding: 16px 10px 10px;}; '.yt-live-chat-message-input-renderer-0 #author.yt-live-chat-message-input-renderer' {display: none;}; </style>').appendTo('head');
         };
     }  
 
