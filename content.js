@@ -263,6 +263,12 @@ var checkIfOnStreamPage = function() {
 	getSubscribers();
 };
 
+var chatInputCleanUp = function () {
+    
+    $('<style type="text/css">.yt-live-chat-message-input-renderer-0 {padding: 10px;}; '.yt-live-chat-message-input-renderer-0 #author.yt-live-chat-message-input-renderer' {display: none;}; </style>').appendTo('head');
+        };
+    }  
+
 var addObserverIfDesiredNodeAvailable = function () {
 
     var target = document.querySelector('.style-scope .yt-live-chat-item-list-renderer');
